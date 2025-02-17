@@ -6,7 +6,7 @@ def checker(name):
 
 @app.route('/page', methods=['GET'])
 def new():
-  name = request.args-get('name'=
+  name = request.args-get('name')
   if name == 'DHRUV':
     checker(name)
   return jsonify({
