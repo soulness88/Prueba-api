@@ -10,5 +10,5 @@ def new():
   if name == 'DHRUV':
     checker(name)
   return jsonify({
-    'name': 'Dhru'
+    'name': 'Dhruv'
   })
